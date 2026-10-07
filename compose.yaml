@@ -1,0 +1,5 @@
+services:
+  timemonitor:
+    build: .
+    env_file:
+      - .env
