@@ -1,11 +1,10 @@
 spring:
   application:
-  name: timemonitor
+    name: timemonitor
 
 time-api:
   base-url: https://gateway.timeapi.world
   rapid-api-key: ${RAPID_API_KEY}
   rapid-api-host: ${RAPID_API_HOST}
-  timezone: ${TIMEZONE}
   continent: ${CONTINENT}
   city: ${CITY}
